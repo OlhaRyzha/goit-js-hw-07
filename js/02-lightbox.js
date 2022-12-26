@@ -25,7 +25,6 @@ function onLinkClick(event){
     }
 
 }
-var lightbox = new SimpleLightbox('.gallery a', {});
-lightbox.captionDelay = 250;
-lightbox.captionPosition = 'bottom';
+var lightbox = new SimpleLightbox('.gallery a', {captionDelay: 250, captionPosition: 'bottom'});
+
 
